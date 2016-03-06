@@ -1,0 +1,17 @@
+{
+  "name": "it567-node-portscanner",
+  "version": "1.0.0",
+  "description": "A simple port scanner built in node.js",
+  "main": "scan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanner Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "dns": "^0.2.2",
+    "net-ping": "^1.2.0",
+    "netmask": "^1.0.5"
+  }
+}
