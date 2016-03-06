@@ -6,6 +6,7 @@ exports.idate = function (p){
   var options = {
     valid: true
   }
+  //tr needs only valid host
   if(p.traceroute){
     if(!validateHost(p.host)) {
       options.valid = false
@@ -14,6 +15,7 @@ exports.idate = function (p){
     } else {
       options.valid = true
     }
+  //make sure each option is valid for each respective functionality
   }else{
     if(!p.traceroute && !p.method && !(p.host || p.hostFile) && !p.port){
       options.valid = false

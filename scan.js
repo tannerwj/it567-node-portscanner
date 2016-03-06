@@ -3,6 +3,7 @@ const program = require('commander')
 const val = require('./src/validate')
 const pkg = require('./package.json')
 
+//get program options and cmds
 program
 	.version(pkg.version)
   .option('-p, --port <p>', 'select port(s)')

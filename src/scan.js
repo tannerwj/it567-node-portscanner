@@ -75,7 +75,7 @@ var checkTCPPort = function (host, ports){
       if(open){
         console.log('%s open on port %s', host, port)
       }else{
-        console.log('%s closed on port %s', host, port)        
+        console.log('%s closed on port %s', host, port)
       }
     })
 
